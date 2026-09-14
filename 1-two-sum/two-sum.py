@@ -4,7 +4,8 @@ class Solution:
         for i in range(len(nums)):
             complement=target-nums[i]
             if complement in hashmap:
-                return [hashmap[complement],i]
+                return[hashmap[complement],i]
             hashmap[nums[i]]=i
-        return []
-        
+        return[]
+      
+      
